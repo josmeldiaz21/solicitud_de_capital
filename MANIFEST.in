@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include solicitud_de_capital *.css
+recursive-include solicitud_de_capital *.csv
+recursive-include solicitud_de_capital *.html
+recursive-include solicitud_de_capital *.ico
+recursive-include solicitud_de_capital *.js
+recursive-include solicitud_de_capital *.json
+recursive-include solicitud_de_capital *.md
+recursive-include solicitud_de_capital *.png
+recursive-include solicitud_de_capital *.py
+recursive-include solicitud_de_capital *.svg
+recursive-include solicitud_de_capital *.txt
+recursive-exclude solicitud_de_capital *.pyc
